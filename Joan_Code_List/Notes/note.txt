@@ -1,0 +1,29 @@
+Code des cours
+https://github.com/viziodev/Iage3A_2024
+
+{ Notes de cours 
+    -Principe de la responsabilité unique: 
+    Chaque couche de l'application a sa propre responsabilité
+    
+    -La couche repositories est la couche d'accès aux données.
+    L'objetif du <repositories> est d'aller chercher les données  
+    Ex : Je peux avoir une fonction qui peut me lister les Agencepar numero
+    Recuperer le nom d'une Agence qui a un numero unique particulier.
+    
+    -La couche entities contient toutes les classes de données.
+    
+    -La vue permet de saisir et afficher les données.
+    
+    -Les vues utilisent les services et les services utilisent le repositories
+}
+{ Note 
+    Un 'Package' est un ensemble  de classes du même domaine
+    La relation d'héritage est une relation d'extension
+        public <nomClassFille> extends <NomClassParent>{}
+
+
+
+}
+
+
+
